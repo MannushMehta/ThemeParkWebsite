@@ -1,0 +1,224 @@
+/* :root
+{
+
+} */
+
+/* BODY */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 17px;
+    /* vertical-align: baseline; */
+    /* background: transparent; */
+}
+
+body {
+    background-color: white;
+}
+
+
+/* IMAGE */
+.nav-img{
+    width: 100%;
+    height: 100%;
+    float:left;
+    margin: 0px;
+    margin-top: 0px;
+    position: absolute;
+    min-height: 450px;
+    overflow: hidden; 
+    z-index: -1; 
+    padding-bottom:10px ;
+}
+
+/* NAVBAR */
+nav{
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+    padding-top: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    /* color: white; */
+}
+
+nav ul li{
+    display: inline-grid;
+    grid-area: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 100px 100px;
+    color: whitesmoke; 
+    text-decoration: none;
+    text-align: center;
+    font-family: "Farro", serif;
+    font-style: italic;
+}
+
+nav ul li:hover{
+    color: rgb(253, 155, 9);
+    cursor: pointer;
+    transition: 0.5s;
+    text-shadow: 1px 1px 5px black;
+}
+
+/* nav ul  li::after{
+    color: rgb(22, 128, 199);
+    cursor: pointer;
+    transition: 0.3s;
+    text-shadow: 1px 1px 5px black;
+} */
+
+/* SIGN-IN BUTTON */
+
+  .Sign-in{
+    border:0px solid white;
+    border-radius:25px;;
+    background-color: rgb(102, 186, 211);
+    width: 70px;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    top: 0px;
+    position: absolute;
+    top: 14px;
+    right: 0;
+    cursor:pointer;
+    text-transform: capitalize;
+    font-family: "Farro", serif;
+    font-style: italic;
+    text-decoration: none;
+} 
+
+/**/
+
+/* h1{
+
+} */
+p{
+    font-family: "Farro", serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.info{
+margin-top: 400px;
+font-size: 30px;
+font-weight: 100px;color: white;
+padding-top: 70px;
+}
+
+.info h1{
+    font-size: 40px;
+    left: 0;
+}
+/* .info h1{
+    font-size: large;
+} */
+/* Card */
+
+.card-heading {
+    color: black;
+    padding-top: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+    font-weight: 900;
+    align-items: center;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    width: 100%;
+    height: 10%;
+    margin-right: 0;
+    padding-right: 0;
+    padding-top: 100px;
+}
+
+.cards .card3 img{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+}
+
+.child{
+  margin: 10px;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+
+.cards .card2 img{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cards .card3, .card2, .card1  h1{
+    font-weight: 900;      
+}
+.cards h1{
+    margin-top: 0;
+    font-size: large;
+    align-items: center;
+}
+
+.card1{
+    background-color: rgb(241, 126, 18)  ;
+    display: inline-block; 
+}
+
+.card2{
+    background-color: navy;
+}
+
+.card3{
+    background-color: rgb(12, 197, 28);
+}
+/*FOOTER*/
+
+footer{
+    background-color: rgba(250, 250, 250, 0.726);
+    width: 100%;
+}
+footer h1{
+    align-items: baseline;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 100px ;
+}
+   .footer-div ,.footer1, .footer2, .footer3  {
+    grid-template-columns:1fr 1fr  ;
+    padding-left: 100px;
+    list-style-type: none;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 100px ;
+    font-style: italic;
+    display: inline-grid;
+}
+
+.footer-div{
+    justify-content: center;
+    padding-top: 100px;
+} 
+
+details summary a{
+    text-decoration: none;
+    color:rgb(80, 226, 43);
+}
+
+.INSTAGRAM{
+    cursor: pointer;
+}
+
+.LOCATION{
+    cursor: pointer;
+}
+
+
